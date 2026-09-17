@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCore | Soluções em Infraestrutura de TI e Redes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand">
+                <span class="brand-badge"><i data-lucide="cpu"></i></span>
+                <span class="brand-name">Tech<span class="brand-bold">Core</span></span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#infraestrutura">Infraestrutura</a>
+                <a href="#cabeamento">Cabeamento & Fibra</a>
+                <a href="#arquitetura">Arquitetura de Rede</a>
+                <a href="#vlans">VLANs</a>
+                <a href="#equipamentos">Ativos & Servidores</a>
+                <a href="#projetos">Projetos & Mídia</a>
+                <a href="#contato" class="btn-nav">Fale Conosco</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content text-center">
+                <div class="pill-badge">
+                    <span class="pill-dot"></span> Engenharia de Redes & Datacenters
+                </div>
+                <h1 class="hero-title">
+                    Infraestrutura de TI de alta performance para empresas do futuro
+                </h1>
+                <p class="hero-subtitle">
+                    Projetamos e gerenciamos ambientes corporativos com foco em escalabilidade, redundância, cabeamento estruturado e máxima segurança lógica.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">
+                        <span>Ver Projetos e Vídeos</span>
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#arquitetura" class="btn btn-secondary">Ver Arquitetura de Rede</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">VISÃO CORPORATIVA</span>
+                    <h2 class="section-title">Engenharia de TI sólida para negócios em expansão</h2>
+                </div>
+                <div class="grid grid-2 align-center gap-large">
+                    <div>
+                        <p class="paragraph-lead">
+                            A <strong>TechCore</strong> atua como parceira estratégica no desenvolvimento e implementação de infraestrutura crítica de Tecnologia da Informação.
+                        </p>
+                        <p>
+                            Nossa expertise abrange desde o planejamento físico da passagem de cabos e terminação óptica em SHAFTs técnicos até a configuração lógica avançada de Firewalls de borda, roteamento corporativo, redes virtuais segmentadas (VLANs) e matrizes de servidores integradas.
+                        </p>
+                        <div class="bullets-list">
+                            <div class="b-item"><i data-lucide="check-circle-2"></i> Projetos executados sob normas técnicas TIA/EIA e ISO/IEC.</div>
+                            <div class="b-item"><i data-lucide="check-circle-2"></i> Políticas estritas de segurança da informação com firewall pfSense.</div>
+                            <div class="b-item"><i data-lucide="check-circle-2"></i> Documentação física e lógica completa para fácil manutenção.</div>
+                        </div>
+                    </div>
+                    <div class="code-preview-box">
+                        <div class="code-header">
+                            <span class="c-dot red"></span>
+                            <span class="c-dot yellow"></span>
+                            <span class="c-dot green"></span>
+                            <span class="c-title">techcore-core-status.sys</span>
+                        </div>
+                        <pre><code><span class="k">SYSTEM_STATUS:</span> OPERATIONAL
+<span class="k">TOPOLOGY:</span> CORE-DISTRIBUTION-ACCESS
+<span class="k">SECURITY_LAYER:</span> ACTIVE (pfSense_Firewall)
+<span class="k">ROUTING_ENGINE:</span> ACTIVE (MikroTik_CCR)
+<span class="k">BACKBONE:</span> OPTICAL_FIBER_10G_OK
+<span class="k">SEGMENTATION:</span> 8_VLANS_CONFIGURED</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">SERVIÇOS</span>
+                    <h2 class="section-title">Soluções Corporativas de TI</h2>
+                </div>
+                <div class="grid grid-3">
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="cable"></i></div>
+                        <h3>Cabeamento Estruturado</h3>
+                        <p>Projetos Cat6/Cat6A, organização de racks, patch panels, identificação norma TIA/EIA e certificação de pontos.</p>
+                    </div>
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="network"></i></div>
+                        <h3>Fibra Óptica & Backbone</h3>
+                        <p>Lançamento, fusão e interconexão de enlaces ópticos verticais e horizontais via SHAFT técnico.</p>
+                    </div>
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="route"></i></div>
+                        <h3>Arquitetura de Redes</h3>
+                        <p>Dimensionamento de redes LAN/WAN, switching gerenciável, atribuição de IP e otimização de tráfego.</p>
+                    </div>
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="server"></i></div>
+                        <h3>Infraestrutura de Servidores</h3>
+                        <p>Estruturação de ambientes para aplicações críticas, serviços de diretório, arquivos e bancos de dados.</p>
+                    </div>
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="shield-check"></i></div>
+                        <h3>Segurança de Rede</h3>
+                        <p>Appliances de Firewall (pfSense), inspeção de pacotes, políticas de controle de acesso e regras perimetrais.</p>
+                    </div>
+                    <div class="clean-card">
+                        <div class="card-icon"><i data-lucide="globe"></i></div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de sistemas e soluções web para empresas focados em performance, segurança e usabilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="infraestrutura" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">ESTRUTURA CORPORATIVA</span>
+                    <h2 class="section-title">Infraestrutura Física & Planejamento Espacial</h2>
+                </div>
+                <div class="grid grid-2 align-center">
+                    <div>
+                        <h3>Ambientes Planejados para Desempenho Técnico</h3>
+                        <p>
+                            A sede física da TechCore foi projetada visando otimização do fluxo de trabalho e isolamento térmico/acústico da Sala de Servidores (Data Center interno).
+                        </p>
+                        <p>
+                            O layout contempla Recepção, Área Administrativa, Laboratório Técnico de Manutenção, Sala de Reuniões e o Data Center com controle estrito de acesso e passagem dedicada de infraestrutura.
+                        </p>
+                        <div class="info-highlight-box">
+                            <h4>Data Center / Sala de TI</h4>
+                            <p>Piso elevado, racks fechados, climatização de precisão e sistema de contenção de cabeamento.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-preview-card" onclick="openModal('PLANTA 3D.jfif', 'Planta Baixa Oficial 3D Humanizada', 'Mapeamento espacial completo dos dois pavimentos, salas operacionais, shaft técnico e CPD.')">
+                        <img src="PLANTA 3D.jfif" alt="Planta Baixa Oficial 3D">
+                        <div class="preview-info">
+                            <h4>Planta Baixa Oficial 3D</h4>
+                            <span>Clique para ampliar em alta resolução</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cabeamento" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">CONECTIVIDADE FÍSICA</span>
+                    <h2 class="section-title">Cabeamento Estruturado & Backbone Óptico</h2>
+                </div>
+                
+                <div class="grid grid-2 gap-medium margin-bottom">
+                    <div class="clean-card">
+                        <h3><span class="highlight-num">01.</span> Distribuição de Cabeamento</h3>
+                        <p>A rede horizontal utiliza topologia em estrela, interligando as tomadas de telecomunicações dos postos de trabalho aos Racks de Distribuição via cabeamento de par trançado de alta performance.</p>
+                        <ul class="styled-clean-list">
+                            <li>Organização técnica via Patch Panels e Guides de cabos.</li>
+                            <li>Acomodação padronizada em eletrocalhas e canaletas técnicas.</li>
+                            <li>Identificação e etiquetagem dos pontos conforme padrão TIA/EIA.</li>
+                        </ul>
+                    </div>
+
+                    <div class="clean-card">
+                        <h3><span class="highlight-num">02.</span> Backbone Vertical via SHAFT</h3>
+                        <p>A interconexão do centro de distribuição principal com os pontos estratégicos da empresa ocorre através de um SHAFT de telecomunicações vertical dedicado.</p>
+                        <ul class="styled-clean-list">
+                            <li>Enlaces de Fibra Óptica garantindo imunidade a ruídos eletromagnéticos.</li>
+                            <li>Tráfego de alta largura de banda para interconexão dos switches ao Core.</li>
+                            <li>Redundância de caminhos para tolerância a falhas na infraestrutura.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="shaft-diagram-clean">
+                    <h3 class="text-center margin-bottom-sm">Fluxo de Distribuição por Shaft e Enlace Óptico</h3>
+                    <div class="shaft-flow">
+                        <div class="s-step">
+                            <strong>RACK PRINCIPAL / CORE</strong>
+                            <span>Data Center</span>
+                        </div>
+                        <div class="s-arrow">➔ <small>Fibra Óptica Multimodo</small> ➔</div>
+                        <div class="s-step active-step">
+                            <strong>SHAFT TÉCNICO VERTICAL</strong>
+                            <span>Passagem de Infraestrutura</span>
+                        </div>
+                        <div class="s-arrow">➔ <small>Cabeamento UTP Cat6</small> ➔</div>
+                        <div class="s-step">
+                            <strong>RACKS SECUNDÁRIOS</strong>
+                            <span>Setores Operacionais</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="arquitetura" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">TOPOLOGIA LÓGICA</span>
+                    <h2 class="section-title">Arquitetura de Rede Corporativa</h2>
+                    <p class="section-desc">Fluxo lógico de tráfego projetado para inspeção de segurança na borda com pfSense, roteamento MikroTik no Core e comutação gerenciável Cisco.</p>
+                </div>
+
+                <div class="topology-clean-card">
+                    <div class="node-clean">
+                        <i data-lucide="cloud"></i>
+                        <div><strong>INTERNET (WAN)</strong><span>Conexão Externa & Link Redundante</span></div>
+                    </div>
+                    <div class="node-connector">↓</div>
+                    <div class="node-clean highlight-border">
+                        <i data-lucide="shield"></i>
+                        <div><strong>FIREWALL / PFSENSE</strong><span>VLAN 99 (Mgmt) / Inspeção & Filtro Perimetral</span></div>
+                    </div>
+                    <div class="node-connector">↓</div>
+                    <div class="node-clean highlight-border">
+                        <i data-lucide="router"></i>
+                        <div><strong>ROTEADOR CORE / MIKROTIK</strong><span>VLANs 10-70 Subnets / Roteamento Inter-VLAN & NAT</span></div>
+                    </div>
+                    <div class="node-connector">↓</div>
+                    <div class="node-clean highlight-border">
+                        <i data-lucide="layers"></i>
+                        <div><strong>SWITCHES CISCO GERENCIÁVEIS</strong><span>Trunking IEEE 802.1Q & Mapeamento de Portas</span></div>
+                    </div>
+                    <div class="node-connector">↓</div>
+                    <div class="endpoints-row-clean">
+                        <span class="ep-badge"><i data-lucide="lock"></i> VLAN 10 Diretoria/RH</span>
+                        <span class="ep-badge"><i data-lucide="monitor"></i> VLAN 20 Adm/Operac</span>
+                        <span class="ep-badge"><i data-lucide="code"></i> VLAN 30 Dev</span>
+                        <span class="ep-badge"><i data-lucide="terminal"></i> VLAN 40 TI/NOC</span>
+                        <span class="ep-badge"><i data-lucide="server"></i> VLAN 50 Servidores</span>
+                        <span class="ep-badge"><i data-lucide="video"></i> VLAN 60 CFTV</span>
+                        <span class="ep-badge"><i data-lucide="wifi"></i> VLAN 70 Guest</span>
+                        <span class="ep-badge"><i data-lucide="settings"></i> VLAN 99 Mgmt</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vlans" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">SEGMENTAÇÃO DE REDE</span>
+                    <h2 class="section-title">Estrutura de 8 VLANs Projetadas</h2>
+                    <p class="section-desc">Detalhamento completo das 8 Redes Locais Virtuais (IEEE 802.1Q) com escopos IP, gateways e atribuição de portas nos switches.</p>
+                </div>
+
+                <div class="grid grid-2 margin-bottom">
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 10</span>
+                            <span class="vlan-tag">DIRETORIA_RH</span>
+                        </div>
+                        <h3>Diretoria e RH</h3>
+                        <p>Isolamento do tráfego corporativo sensível dos setores de Recursos Humanos e Diretoria Executiva.</p>
+                        <p><strong>Aplicação SW-1ANDAR-B:</strong> Portas Fa0/7 a Fa0/10.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.10.0/24 | Gateway: 10.10.10.1</span>
+                        </div>
+                    </div>
+
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 20</span>
+                            <span class="vlan-tag">ADM_OPERAC</span>
+                        </div>
+                        <h3>Administrativo e Operacional</h3>
+                        <p>Tráfego geral dos setores administrativo, financeiro, recepção e estações de trabalho operacionais.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.20.0/24 | Gateway: 10.10.20.1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-2 margin-bottom">
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 30</span>
+                            <span class="vlan-tag">DEV</span>
+                        </div>
+                        <h3>Desenvolvimento de Software</h3>
+                        <p>Rede dedicada para a equipe de desenvolvimento e ambiente de testes de software sem afetar a produção.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.30.0/23 | Gateway: 10.10.30.1</span>
+                        </div>
+                    </div>
+
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 40</span>
+                            <span class="vlan-tag">TI_NOC</span>
+                        </div>
+                        <h3>TI e Suporte Técnico</h3>
+                        <p>Rede do setor de Tecnologia da Informação, Suporte Técnico, Coworking e monitores do NOC.</p>
+                        <p><strong>Aplicação SW-1ANDAR-B:</strong> Portas Fa0/1 a Fa0/6.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.40.0/24 | Gateway: 10.10.40.1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-2 margin-bottom">
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 50</span>
+                            <span class="vlan-tag">SERVIDORES</span>
+                        </div>
+                        <h3>Infraestrutura de Servidores</h3>
+                        <p>Concentra os servidores centrais (Arquivos, Banco de Dados, AD/DNS, Web) no CPD com rigoroso controle de acesso.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.50.0/24 | Gateway: 10.10.50.1</span>
+                        </div>
+                    </div>
+
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 60</span>
+                            <span class="vlan-tag">CFTV</span>
+                        </div>
+                        <h3>Câmeras e Segurança</h3>
+                        <p>Rede exclusiva para o tráfego contínuo de vídeo de alta banda das câmeras IP e gravadores (NVR/DVR).</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 10.10.60.0/24 | Gateway: 10.10.60.1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 70</span>
+                            <span class="vlan-tag">GUEST</span>
+                        </div>
+                        <h3>Visitantes / Wi-Fi Hóspedes</h3>
+                        <p>Acesso à internet para visitantes e dispositivos pessoais. Isolada de todas as outras VLANs corporativas.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 172.16.70.0/24 | Gateway: 172.16.70.1</span>
+                        </div>
+                    </div>
+
+                    <div class="clean-card vlan-box">
+                        <div class="vlan-top">
+                            <span class="vlan-id">VLAN 99</span>
+                            <span class="vlan-tag">MANAGEMENT</span>
+                        </div>
+                        <h3>Gerenciamento de Rede</h3>
+                        <p>VLAN nativa e de gerenciamento para acesso administrativo seguro (SSH, SNMP) aos Switches, Roteadores e Access Points.</p>
+                        <div class="vlan-footer">
+                            <span>Sub-rede: 192.168.99.0/24 | Gateway: 192.168.99.1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipamentos" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">HARDWARE & APPLIANCES</span>
+                    <h2 class="section-title">Ativos de Rede e Servidores</h2>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="clean-card">
+                        <span class="brand-chip">CISCO</span>
+                        <h3>Switches Gerenciáveis</h3>
+                        <p class="role-text">Comutação e Distribuição</p>
+                        <p>Responsáveis pelo agrupamento das 8 VLANs, suporte a trunking (802.1Q) e mapeamento de portas operacionais.</p>
+                    </div>
+
+                    <div class="clean-card">
+                        <span class="brand-chip">MIKROTIK</span>
+                        <h3>Roteador / Gateway Core</h3>
+                        <p class="role-text">Gerenciamento e Inter-VLAN</p>
+                        <p>Roteamento dinâmico entre sub-redes (VLANs 10-70), regras de NAT, controle de pacotes e gatilho de DHCP.</p>
+                    </div>
+
+                    <div class="clean-card">
+                        <span class="brand-chip">PFSENSE</span>
+                        <h3>Firewall UTM / Perímetro</h3>
+                        <p class="role-text">Segurança Operacional (VLAN 99)</p>
+                        <p>Filtragem avançada de pacotes, bloqueio de ameaças perimetrais e gestão da interface WAN/Gerenciamento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">PORTFÓLIO TÉCNICO</span>
+                    <h2 class="section-title">Central de Mídia e Projetos Virtuais</h2>
+                    <p class="section-desc">Navegue pelas abas para visualizar os tours virtuais 3D, simulação lógica e maquetes técnicas.</p>
+                </div>
+
+                <div class="tabs-wrapper">
+                    <button class="tab-btn active" onclick="switchTab(event, 'tab-video-institucional')">Tour Virtual Sede</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-video-cabeamento')">Vídeo Cabeamento & Shaft</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-packet')">Packet Tracer & Topologia Lógica</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-3d')">Modelagem 3D & Racks</button>
+                </div>
+
+                <div id="tab-video-institucional" class="tab-content active">
+                    <div class="video-container-clean">
+                        <video controls poster="PLANTA 3D.jfif">
+                            <source src="Cinematic_smooth_camera_fly_th.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <div class="video-caption">
+                            <h4>Tour Virtual 3D: Da Edificação ao Datacenter</h4>
+                            <p>Animação conceitual demonstrando a estrutura física e a integração dos ambientes da TechCore.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-video-cabeamento" class="tab-content">
+                    <div class="video-container-clean">
+                        <video controls poster="SALA DE TELECOMUNICAÇÃO.jfif">
+                            <source src="VIDEO DA PARTE DO SHAFT E CABEAMENTO.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <div class="video-caption">
+                            <h4>Animação TÉCNICA: Shaft, Eletrocalhas e Infraestrutura de Racks</h4>
+                            <p>Demonstração detalhada da infraestrutura física de cabos Cat6 azuis, fibra óptica e racks do Data Center.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-packet" class="tab-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active" id="slide-1">
+                            <div class="packet-tracer-box" onclick="openModal('CISCO TMB.jpg', 'Topologia Integrada com pfSense, MikroTik e 8 VLANs', 'Mapeamento visual completo demonstrando a distribuição das 8 VLANs nos ambientes, endereçamento IP e pilha de segurança com pfSense e MikroTik Core.')">
+                                <div class="packet-header">
+                                    <span class="ph-title"><i data-lucide="shield-check"></i> Topologia Integrada - Integrated VLAN & Security Stack</span>
+                                    <span class="ph-action">Clique para Inspecionar (1/2)</span>
+                                </div>
+                                <img src="CISCO TMB.jpg" alt="Mapeamento de VLANs e Segurança pfSense/MikroTik">
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide" id="slide-2">
+                            <div class="packet-tracer-box" onclick="openModal('CISO.png', 'Diagrama Lógico Cisco Packet Tracer', 'Esquema completo de comutação dos switches, entroncamento 802.1Q e distribuição dos ativos de rede.')">
+                                <div class="packet-header">
+                                    <span class="ph-title"><i data-lucide="network"></i> Cisco Packet Tracer - Diagrama Lógico de Switches</span>
+                                    <span class="ph-action">Clique para Inspecionar (2/2)</span>
+                                </div>
+                                <img src="CISO.png" alt="Cisco Packet Tracer Diagrama Lógico">
+                            </div>
+                        </div>
+
+                        <div class="carousel-nav">
+                            <button class="carousel-btn" onclick="moveSlide(-1)"><i data-lucide="chevron-left"></i> Anterior</button>
+                            <span class="carousel-indicator" id="slide-indicator">Imagem 1 de 2: Topologia Integrada de VLANs</span>
+                            <button class="carousel-btn" onclick="moveSlide(1)">Próximo <i data-lucide="chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-3d" class="tab-content">
+                    <div class="grid grid-3">
+                        <div class="gallery-preview-card" onclick="openModal('PLANTA 3D.jfif', 'Planta Baixa Oficial 3D Humanizada', 'Mapeamento espacial completo de ambos os pavimentos e salas técnicas.')">
+                            <img src="PLANTA 3D.jfif" alt="Planta Baixa 3D">
+                            <div class="preview-info">
+                                <h4>Planta Baixa 3D</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+
+                        <div class="gallery-preview-card" onclick="openModal('SALA DE TELECOMUNICAÇÃO.jfif', 'Sala de Telecomunicação - Térreo', 'Racks de telecomunicação abertos, patch panels e eletrocalhas aéreas com cabos Cat6 azuis.')">
+                            <img src="SALA DE TELECOMUNICAÇÃO.jfif" alt="Sala de Telecomunicação">
+                            <div class="preview-info">
+                                <h4>Sala de Telecomunicação</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+
+                        <div class="gallery-preview-card" onclick="openModal('COMPUTADOR.jfif', 'Estação NOC & Ponto de Rede RJ45', 'Estação de trabalho do NOC com monitores duplos e espelho de parede com tomada fêmea RJ45 Cat6.')">
+                            <img src="COMPUTADOR.jfif" alt="Estação NOC e Tomada RJ45">
+                            <div class="preview-info">
+                                <h4>Estação NOC & Ponto RJ45</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+
+                        <div class="gallery-preview-card" onclick="openModal('f512bf42-e08b-4c9d-94c7-64f8f20925cb.png', 'Modelagem Racks 3D (SketchUp)', 'Estruturação de Patch Panels e ativos no SketchUp.')">
+                            <img src="f512bf42-e08b-4c9d-94c7-64f8f20925cb.png" alt="Racks 3D">
+                            <div class="preview-info">
+                                <h4>Racks de Telecomunicações</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+
+                        <div class="gallery-preview-card" onclick="openModal('9c33c8c5-a1d6-42cf-a51c-b180217995b7.png', 'Passagem de Infraestrutura (SketchUp)', 'Detalhamento de eletrocalhas e rotas de cabos.')">
+                            <img src="9c33c8c5-a1d6-42cf-a51c-b180217995b7.png" alt="Infra 3D">
+                            <div class="preview-info">
+                                <h4>Eletrocalhas & Shaft Vertical</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+
+                        <div class="gallery-preview-card" onclick="openModal('PLANTA SKETCHUP.jpg', 'Planta Baixa Oficial (SketchUp)', 'Layout arquitetônico 2D com a divisão exata dos ambientes.')">
+                            <img src="PLANTA SKETCHUP.jpg" alt="Planta Baixa SketchUp 2D">
+                            <div class="preview-info">
+                                <h4>Planta Baixa 2D Oficial</h4>
+                                <span>Clique para ampliar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section bg-light">
+            <div class="container text-center">
+                <span class="section-tag">CONTATO</span>
+                <h2 class="section-title">Precisa de um projeto especializado?</h2>
+                <p class="section-desc">Fale com nossa equipe de engenharia para consultorias e orçamentos.</p>
+                <div class="contact-box">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <input type="text" placeholder="Seu nome ou empresa" required>
+                            <input type="email" placeholder="Seu e-mail corporativo" required>
+                        </div>
+                        <textarea placeholder="Como podemos ajudar no seu projeto?" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary margin-top">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 TechCore Soluções em TI. Engenharia de Redes e Infraestrutura Corporativa.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-box" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img id="modalImg" src="" alt="">
+            <div class="modal-caption">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
